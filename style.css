@@ -8,12 +8,9 @@ img{
 
 }
 
-.card mb-4{
-   background-color: orange;
-}
 .displayBox{
    width: 100%;
-   font-family: Verdana, Geneva, Tahoma, sans-serif
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .scroll-box{
@@ -22,3 +19,13 @@ img{
    float: left;
    padding: 1rem;
 }
+
+h2, h5, #keyword, #buttonFont {
+   font-family: poppins, serif;
+}
+/*alternative hex colors for headers: #FAB972, #E28540 */
+/* alternatve color for button: 748E9F*/
+/*rgba(167	193	210,0.075);/
+/*background: linear-gradient(to bottom, #91A3B0 0%, #8294A1 100%);*/
+/*background:linear-gradient(45DEG, #EEEEEE,#FAF8F9,#FFFFFF)*/
+/* #DDE2CA, #2B353E, #748E9F, #b0b4a1,*/
