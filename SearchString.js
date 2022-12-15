@@ -133,8 +133,6 @@ function performMark() {
     //find all the currently marked items
     let spans = document.querySelectorAll('mark');
    
-    //<mark>Harry</mark>
-    //Harry
 
     for( var i = 0; i < spans.length; i++){
         spans[i].outerHTML = spans[i].innerHTML;
