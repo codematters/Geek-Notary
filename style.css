@@ -1,20 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+   font-size: 16px; 
+}
+body {
+   background: linear-gradient(45DEG, #EEEEEE,#FAF8F9,#FFFFFF);
+}
+
 .responsive {
-   max-width:75%;
+   max-width: 75%;
    height: auto;
 }
 
 .displayBox{
    width: 100%;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .scroll-box{
    overflow-y: auto;
-   height: 500px;
+   height: 31rem;
    float: left;
    padding: 1rem;
 }
 
 h2, h5, #keyword, #buttonFont {
-   font-family: poppins, serif;
+   font-family: "Poppins", sans-serif;
+}
+
+#footercolor {
+   background-color: #b0b4a1;
+}
+
+#searchstat{
+   background-color: #b0b4a1;
+}
+
+.headercolor{
+   background-color:#DDE2CA;
+   color: #2B353E;
+   padding: .8rem 0 .8rem 1rem;
+}
+
+button {
+   background-color:#748E9F;
+   color:white;
 }
