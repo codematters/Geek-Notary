@@ -12,6 +12,10 @@ body {
    height: auto;
 }
 
+img {
+   padding: 1rem;
+}
+
 .displayBox{
    width: 100%;
 }
